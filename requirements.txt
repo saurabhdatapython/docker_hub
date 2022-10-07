@@ -11,3 +11,5 @@ typing_extensions
 wincertstore
 zipp
 pytest
+xgboost
+sklearn
