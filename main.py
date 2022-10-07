@@ -3,13 +3,9 @@
 from wsgiref import simple_server
 from flask import Flask, request, render_template
 from flask import Response
-import os
 from flask_cors import CORS, cross_origin
 
-import json
 
-os.putenv('LANG', 'en_US.UTF-8')
-os.putenv('LC_ALL', 'en_US.UTF-8')
 
 app = Flask(__name__)
 
