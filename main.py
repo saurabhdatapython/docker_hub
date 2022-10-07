@@ -3,21 +3,16 @@
 from wsgiref import simple_server
 from flask import Flask, request, render_template
 from flask import Response
-from flask_cors import CORS, cross_origin
+#from flask_cors import CORS, cross_origin
+import os
 
 
 
 app = Flask(__name__)
 
-CORS(app)
-
-
-@app.route("/", methods=['GET'])
-@cross_origin()
+@app.route("/", methods=['GET','POST'])
 def home():
     return "hi this is flask"
-
-
 
 
 port = int(os.getenv("PORT", 5000))
