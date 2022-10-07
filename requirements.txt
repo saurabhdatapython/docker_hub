@@ -11,7 +11,7 @@ pyparsing
 pyrsistent
 pytest
 python-dateutil
-pytz==2019.3
+pytz
 pytz-deprecation-shim
 PyYAML
 regexp
