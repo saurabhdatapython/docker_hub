@@ -52,3 +52,4 @@ wincertstore
 xgboost
 zipp
 gunicorn
+pytest
